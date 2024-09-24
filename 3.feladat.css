@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+#kek{
+    color: aqua;
+    background-color: aqua;
+    position:relative;
+    transform: translateX(-50%);
+    display: flex; 
+    gap: 10px; 
+    z-index: 2; 
+    height: 40px;
+    width: 70px;
+}
+#kek2{
+    color: aqua;
+    background-color: aqua;
+    position:relative;
+    transform: translateX(-50%);
+    display: flex; 
+    gap: 100px; 
+    z-index: 2; 
+    height: 40px;
+    width: 70px;
+}
+#kek3{
+    color: aqua;
+    background-color: aqua;
+    position:relative;
+    transform: translateX(-50%);
+    display: flex; 
+    gap: 100px; 
+    z-index: 2; 
+    height: 40px;
+    width: 70px;
+}
+
+#lila{
+    color: purple;
+    background-color: purple;
+    position: absolute;
+    padding: 10px;
+    width: 100%;
+    height: 60px;
+
+}
+#zold{
+    color: green;
+    background-color: green;
+    flex-direction: column;
+    height: 450px;
+    width:40%;
+    float: right;
+}
+#sarga{
+    color: yellow;
+    background-color: yellow;
+    flex-direction: column;
+    height: 450px;
+    width: 65%;
+    float: left;
+}
